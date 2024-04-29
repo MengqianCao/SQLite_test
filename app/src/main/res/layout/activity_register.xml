@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="150dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            />
+
+        <EditText
+            android:id="@+id/usrname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            />
+
+        <EditText
+            android:id="@+id/usrpwd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password:"
+            />
+
+        <EditText
+            android:id="@+id/usrpwd2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/submit"
+            android:background="#6750A4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
